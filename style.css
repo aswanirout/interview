@@ -1,0 +1,81 @@
+body {
+    font-family: "inter" !important;
+  text-align: center;
+}
+
+.container {
+    width: 500px !important;
+    border: 1px solid #ddd !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+    align-items: center !important;
+    margin: auto !important;
+}
+
+.straginhttt{
+
+    display: flex !important;
+}
+.divider{
+    width: 200px !important;
+    height: 2px !important;
+    background-color: #ff7eb3 !important;
+    display: inline-block !important;
+    margin-top: 30px !important;
+}
+
+
+.shirts-unit {
+    border: 1px solid #ff7eb3  !important;
+    padding: 10px  !important;
+    margin: 10px 0  !important;
+    border-radius: 5px  !important;
+}
+.shirts-unit:hover {
+    background-color: #ff4d6d !important;
+    color: white !important;
+}
+
+.offer {
+    background: #ff4d6d  !important;
+    color: white  !important;
+    padding: 2px 5px  !important;
+    font-size: 12px  !important;
+    border-radius: 3px  !important; 
+}
+
+
+.most-popular {
+    position: relative  !important;
+    border: 1px solid #ff4d6d  !important;
+}
+.most-popular::after {
+    content: "MOST POPULAR"  !important;
+    position: absolute  !important;
+    top: -10px  !important;
+    right: 10px  !important;
+    background: #ff4d6d  !important;
+    color: white  !important;
+    padding: 2px 5px  !important;
+    font-size: 12px  !important;
+    border-radius: 3px  !important;
+}
+
+.buttoncolor {
+    background-color: #fff !important;
+    color: #ff4d6d  !important;
+    border: 2px solid #ff4d6d  !important; 
+    padding: 10px  !important;
+    width: 100%  !important;
+    border-radius: 5px  !important;
+    cursor: pointer  !important;
+}
+
+.buttoncolor:hover {
+    background-color: #ff4d6d !important;
+    color: white  !important;
+    border: none !important;
+ 
+    
+}
+
